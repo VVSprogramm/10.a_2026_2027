@@ -26,3 +26,15 @@ print(masinas)
 #Esošā elementa nomaiņa
 masinas[2] = "Hyundai"
 print(masinas)
+
+
+
+
+
+saraksts = ["bumba", "grāmata", "pildspalva", "zīmulis", "papīrs"]
+print(saraksts[0]) #izvada pirmo elementu
+print(saraksts[4]) #izvada pēdējo elementu
+saraksts.append("flomasters") #pievieno jaunu elementu
+print(saraksts)
+saraksts[1] = "komikss" #nomaina esošu elementu
+print(saraksts)
